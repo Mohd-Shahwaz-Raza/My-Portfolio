@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="light">
+
+  <header class="sticky">
+    <div class="container header-flex">
+      <h1>My Portfolio</h1>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <div class="intro-grid">
+        <img src="photo.jpg" alt="My Photo" class="profile-photo" />
+        <div>
+          <h2 id="typewriter"></h2>
+          <p>I’m a passionate Full Stack Web Developer creating beautiful, user-friendly websites.</p>
+        </div>
+      </div>
+      <a href="resume.pdf" download class="resume-btn">
+        <i class="fas fa-download"></i> Download Resume
+      </a>      
+    </section>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a BCA graduate with a strong interest in front-end and full-stack development.
+        I enjoy building clean, user-friendly websites using HTML, CSS, JavaScript, and React JS.
+        I'm constantly learning and love to take on new challenges in tech.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <svg viewBox="0 0 100 100">
+            <circle class="bg" cx="50" cy="50" r="45"/>
+            <circle class="progress" cx="50" cy="50" r="45" data-percent="90"/>
+          </svg>
+          <div class="skill-label">C</div>
+        </div>
+        <div class="skill">
+          <svg viewBox="0 0 100 100">
+            <circle class="bg" cx="50" cy="50" r="45"/>
+            <circle class="progress" cx="50" cy="50" r="45" data-percent="85"/>
+          </svg>
+          <div class="skill-label">C++</div>
+        </div>
+        <div class="skill">
+          <svg viewBox="0 0 100 100">
+            <circle class="bg" cx="50" cy="50" r="45"/>
+            <circle class="progress" cx="50" cy="50" r="45" data-percent="90"/>
+          </svg>
+          <div class="skill-label">HTML</div>
+        </div>
+        <div class="skill">
+          <svg viewBox="0 0 100 100">
+            <circle class="bg" cx="50" cy="50" r="45"/>
+            <circle class="progress" cx="50" cy="50" r="45" data-percent="80"/>
+          </svg>
+          <div class="skill-label">CSS</div>
+        </div>
+        <div class="skill">
+          <svg viewBox="0 0 100 100">
+            <circle class="bg" cx="50" cy="50" r="45"/>
+            <circle class="progress" cx="50" cy="50" r="45" data-percent="75"/>
+          </svg>
+          <div class="skill-label">JS</div>
+        </div>
+        <div class="skill">
+          <svg viewBox="0 0 100 100">
+            <circle class="bg" cx="50" cy="50" r="45"/>
+            <circle class="progress" cx="50" cy="50" r="45" data-percent="70"/>
+          </svg>
+          <div class="skill-label">React JS</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>1-Library Management System:</h3>
+          <p>Its a Simple Library Management System...</p>
+          <a href="https://mohd-shahwaz-raza.github.io/Library-Management-System/">Live Link</a>
+        </div>
+        <div class="project-card">
+          <h3>2-Solar System:</h3>
+          <p>A Realstick Solar Sytem...</p>
+          <a href="https://mohd-shahwaz-raza.github.io/Solar-System/">Live Link</a>
+        </div>
+        <div class="project-card">
+          <h3>3-Calculator:</h3>
+          <p>Fully working Calculator...</p>
+          <a href="https://mohd-shahwaz-raza.github.io/Calculator/">Live Link</a>
+        </div>
+        <div class="project-card">
+          <h3>Projects Showcase:</h3>
+          <p>Here are many mini projects...</p>
+          <a href="http://mohd-shahwaz-raza.github.io/Projects-Showcase/">Live Link</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements">
+      <h2>Certifications / Achievements</h2>
+      <ul>
+        <li>Completed HTML, CSS, and JavaScript basics course (from Great Learning)</li>
+        <li>Completed Responsive Web Design course on freeCodeCamp</li>
+        <li>Learned basics of React JS and built a working calculator project</li>
+        <li>Practiced C and C++ programming during BCA practicals</li>
+        <li>Learned basic Git and GitHub commands and used them for projects</li>
+        <li>Created Library Management System and Solar System projects using HTML, CSS, and JS</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:mohdshahwaz592@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>&copy; 2025 Mohd Shahwaz Raza. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/Mohd-Shahwaz-Raza" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/mohd-shahwaz-raza" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://wa.link/gzgrco" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/shahwaz7_" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>            
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
